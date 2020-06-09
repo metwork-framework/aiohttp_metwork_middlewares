@@ -27,7 +27,7 @@ DESCRIPTION = ("Automatic mflog/nginx correlation for request_id (Metwork usage)
 setup(
     name="aiohttp_metwork_middlewares",
     version="0.0.1",
-    packages=find_packages()
+    packages=find_packages(),
     install_requires=required,
     dependency_links=dependency_links,
     zip_safe=False
