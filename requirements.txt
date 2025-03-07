@@ -1,3 +1,4 @@
 aiohttp
 async-timeout; python_version < '3.11'
+setuptools; python_version > '3.11'
 git+https://github.com/metwork-framework/mflog.git#egg=mflog
