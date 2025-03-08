@@ -1,7 +1,11 @@
 from aiohttp import web
-import os
+import os, sys
 from mflog import get_logger
-from async_timeout import timeout
+
+if sys.version_info < (3, 11):
+    from async_timeout import timeout
+else:
+    from asyncio import timeout
 
 
 MFMODULE = os.environ['MFMODULE']
