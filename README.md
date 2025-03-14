@@ -4,10 +4,8 @@
 
 **Status (master branch)**
 
-
-
-[![GitHub CI](https://github.com/metwork-framework/aiohttp_metwork_middlewares/workflows/CI/badge.svg?branch=master)](https://github.com/metwork-framework/aiohttp_metwork_middlewares/actions?query=workflow%3ACI&branch=master)
-[![Maintenance](https://github.com/metwork-framework/resources/blob/master/badges/maintained.svg)]()
+[![GitHub CI](https://github.com/metwork-framework/aiohttp_metwork_middlewares/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/metwork-framework/aiohttp_metwork_middlewares/actions?query=workflow%3ACI+branch%3Amaster)
+[![Maintenance](https://raw.githubusercontent.com/metwork-framework/resources/master/badges/maintained.svg)](https://github.com/metwork-framework/resources/blob/master/badges/maintained.svg)
 
 
 
