@@ -1,5 +1,6 @@
 from aiohttp import web
-import os, sys
+import os
+import sys
 from mflog import get_logger
 
 if sys.version_info < (3, 11):

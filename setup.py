@@ -21,7 +21,8 @@ with open('requirements.txt') as reqs:
         else:
             required.append(line)
 
-DESCRIPTION = ("Automatic mflog/nginx correlation for request_id (Metwork usage)")
+DESCRIPTION = \
+    ("Automatic mflog/nginx correlation for request_id (Metwork usage)")
 
 setup(
     name="aiohttp_metwork_middlewares",
